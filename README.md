@@ -36,3 +36,52 @@ This is the backend for an e-commerce platform built with the MERN stack (MongoD
 
    ```bash
    git clone https://github.com/ThakoorRishwanthKalvium/project_1.git
+
+# Milestone 4
+
+# User Management System  
+
+## Overview  
+This project involves creating a **User Model**, a **User Controller**, and setting up **Multer** for file uploads.  
+
+## Features  
+- User Model to define how user data is stored in MongoDB.  
+- User Controller to handle requests related to user management.  
+- File upload functionality using Multer.  
+
+## 1. What’s a Model?  
+A **model** is a blueprint that defines how data is structured in the database.  
+- In MongoDB, we use **Schemas** to define the structure of a model.  
+- The User Model includes fields like:  
+  - `name` - User’s full name  
+  - `email` - User’s email address  
+  - `password` - User’s hashed password  
+  - `profileImage` - Path to the uploaded profile picture  
+
+## 2. What’s a Controller?  
+A **controller** is responsible for handling user-related actions in the application.  
+- It manages:  
+  - **Creating users** (Sign-up)  
+  - **Retrieving user data**  
+  - **Updating user details**  
+  - **Deleting user accounts**  
+
+## 3. File Uploads with Multer  
+To allow users to upload profile pictures, we use **Multer**.  
+- Multer helps in storing user images securely.  
+- Steps to configure Multer:  
+  - Install Multer using `npm install multer`.  
+  - Set up a middleware to handle file uploads.  
+  - Store uploaded files in a specific directory (e.g., `uploads/`).  
+
+## Steps for Milestone 4 📝  
+This milestone includes:  
+- [ ] Creating the **User Model**  
+- [ ] Developing the **User Controller**  
+- [ ] Setting up **Multer** for file uploads  
+- [ ] Updating the **README.md** with progress  
+
+## Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-repo/user-management.git
