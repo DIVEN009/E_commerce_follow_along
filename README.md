@@ -12,6 +12,7 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 3: Backend Structure & Server Setup](#milestone-3-backend-structure--server-setup)
   - [Milestone 4: Creating User Model and Controller](#milestone-4-creating-user-model-and-controller)
   - [Milestone 5: Sign-Up Page & Form Validation](#milestone-5-sign-up-page--form-validation)
+  - [Milestone 6: Secure User Registration](#milestone-6-secure-user-registration)
 - [How to Run the Project](#-how-to-run-the-project)
 - [Next Steps](#-next-steps)
 - [Contributing](#-contributing)
@@ -24,6 +25,7 @@ This project is an e-commerce website developed through a series of milestones, 
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - File Uploads: Multer
+- Password Encryption: bcrypt
 - Version Control: Git, GitHub
 
 ---
@@ -83,6 +85,23 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
+### Milestone 6: Secure User Registration
+*✅ Goals:*
+1. *Password Encryption:*
+   - Used bcrypt to hash passwords before storing them in the database.
+   - Ensured no plaintext passwords are stored.
+2. *Secure Data Storage:*
+   - Stored the user's encrypted password along with other necessary details in MongoDB.
+3. *Updated API Endpoints:*
+   - Modified the user registration endpoint to handle password hashing securely.
+4. *Security Compliance:*
+   - Followed best practices for protecting user credentials.
+   - Complied with security standards like GDPR and PCI-DSS.
+5. *README Update:*
+   - Documented progress for Milestone 6 and updated the repository.
+
+---
+
 ## ▶ How to Run the Project
 1. Clone the repository:
    bash
@@ -104,3 +123,4 @@ This project is an e-commerce website developed through a series of milestones, 
    npm start
    
 5. Open http://localhost:3000/ in your browser.
+
