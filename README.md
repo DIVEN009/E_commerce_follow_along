@@ -13,6 +13,7 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 4: Creating User Model and Controller](#milestone-4-creating-user-model-and-controller)
   - [Milestone 5: Sign-Up Page & Form Validation](#milestone-5-sign-up-page--form-validation)
   - [Milestone 6: Secure User Registration](#milestone-6-secure-user-registration)
+  - [Milestone 7: User Login & Authentication](#milestone-7-user-login--authentication)
 - [How to Run the Project](#-how-to-run-the-project)
 - [Next Steps](#-next-steps)
 - [Contributing](#-contributing)
@@ -33,72 +34,93 @@ This project is an e-commerce website developed through a series of milestones, 
 ## 📌 Milestones
 
 ### Milestone 1: Project Setup
-*✅ Goals:*
+✅ Goals:
 - Created and updated README.md file.
 - Initialized GitHub repository for version control.
 
 ---
 
 ### Milestone 2: Frontend & Backend Initialization
-*✅ Goals:*
-1. *Project Folder Structure:* Organized files into separate frontend and backend directories.
-2. *React Frontend Setup:* Initialized a React application for building the user interface.
-3. *Node.js Backend Setup:* Set up a simple Node.js server for API integration in future milestones.
-4. *Tailwind CSS Configuration:* Integrated and configured Tailwind CSS for modern, responsive styling.
-5. *Login Page Development:* Created a login page with functionality and styling.
+✅ Goals:
+1. Project Folder Structure: Organized files into separate frontend and backend directories.
+2. React Frontend Setup: Initialized a React application for building the user interface.
+3. Node.js Backend Setup: Set up a simple Node.js server for API integration in future milestones.
+4. Tailwind CSS Configuration: Integrated and configured Tailwind CSS for modern, responsive styling.
+5. Login Page Development: Created a login page with functionality and styling.
 
 ---
 
 ### Milestone 3: Backend Structure & Server Setup
-*✅ Goals:*
-1. *Backend Folder Structure:* Created a structured hierarchy for organizing routes, controllers, models, and middleware.
-2. *Server Setup:*
+✅ Goals:
+1. Backend Folder Structure: Created a structured hierarchy for organizing routes, controllers, models, and middleware.
+2. Server Setup:
    - Used Node.js and Express.js to create a backend server.
    - Configured the server to listen on a designated port.
-3. *Database Connection:*
+3. Database Connection:
    - Integrated MongoDB for efficient data storage.
    - Confirmed the connection between the server and MongoDB.
-4. *Error Handling:*
+4. Error Handling:
    - Provided clear error messages for better debugging and user feedback.
 
 ---
 
 ### Milestone 4: Creating User Model and Controller
-*✅ Goals:*
-1. *User Model:* Defined the structure of user data with attributes like name, email, password, and profile picture.
-2. *User Controller:* Handled user-related actions such as registration and data retrieval.
-3. *Multer Integration:* Enabled file uploads for storing user profile pictures.
-4. *API Routes:* Created endpoints for user creation and fetching user details.
-5. *README Update:* Documented progress and updated repository.
+✅ Goals:
+1. User Model: Defined the structure of user data with attributes like name, email, password, and profile picture.
+2. User Controller: Handled user-related actions such as registration and data retrieval.
+3. Multer Integration: Enabled file uploads for storing user profile pictures.
+4. API Routes: Created endpoints for user creation and fetching user details.
+5. README Update: Documented progress and updated repository.
 
 ---
 
 ### Milestone 5: Sign-Up Page & Form Validation
-*✅ Goals:*
-1. *Sign-Up Page UI:* Designed a clean and user-friendly sign-up form with fields for name, email, and password.
-2. *Form Validation:*
+✅ Goals:
+1. Sign-Up Page UI: Designed a clean and user-friendly sign-up form with fields for name, email, and password.
+2. Form Validation:
    - Ensured the email follows the correct format.
    - Implemented password security criteria (minimum length, special characters, etc.).
-3. *User Registration Flow:* Integrated frontend form submission with the backend API.
-4. *Error Handling:* Displayed validation errors to users in real-time.
-5. *README Update:* Documented progress and updated repository.
+3. User Registration Flow: Integrated frontend form submission with the backend API.
+4. Error Handling: Displayed validation errors to users in real-time.
+5. README Update: Documented progress and updated repository.
 
 ---
 
 ### Milestone 6: Secure User Registration
-*✅ Goals:*
-1. *Password Encryption:*
+✅ Goals:
+1. Password Encryption:
    - Used bcrypt to hash passwords before storing them in the database.
    - Ensured no plaintext passwords are stored.
-2. *Secure Data Storage:*
+2. Secure Data Storage:
    - Stored the user's encrypted password along with other necessary details in MongoDB.
-3. *Updated API Endpoints:*
+3. Updated API Endpoints:
    - Modified the user registration endpoint to handle password hashing securely.
-4. *Security Compliance:*
+4. Security Compliance:
    - Followed best practices for protecting user credentials.
    - Complied with security standards like GDPR and PCI-DSS.
-5. *README Update:*
+5. README Update:
    - Documented progress for Milestone 6 and updated the repository.
+
+---
+
+### Milestone 7: User Login & Authentication
+✅ Goals:
+1. Login Endpoint:
+   - Created a backend endpoint for user login, accepting email/username and password.
+   - Retrieved user data from MongoDB based on the provided email/username.
+   - If the user does not exist, returned an error: "User does not exist."
+2. Password Validation:
+   - Utilized bcrypt to compare the entered password with the stored hashed password.
+   - Ensured password verification was secure and efficient.
+3. Authentication Flow:
+   - If the hashed passwords matched, authenticated the user.
+   - If not, sent an error indicating invalid credentials.
+4. Security Considerations:
+   - Implemented secure password handling without storing plaintext passwords.
+   - Complied with security standards such as GDPR and PCI-DSS.
+5. README Update:
+   - Documented the progress and learning outcomes for Milestone 7.
+   - Updated the repository with details about the user login functionality.
 
 ---
 
@@ -123,4 +145,3 @@ This project is an e-commerce website developed through a series of milestones, 
    npm start
    
 5. Open http://localhost:3000/ in your browser.
-
