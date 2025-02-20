@@ -163,7 +163,9 @@ This project is an e-commerce website developed through a series of milestones, 
 4. Security Enhancements:  
    - Implemented additional validation and data integrity measures to ensure accurate and secure data storage.  
 5. Next Steps (Optional):  
-   - Experiment with adding features such as admin access control to allow only admins to upload products or creating user profiles with roles for managing the shop.  
+   - Experiment with adding features such as admin access control to allow only admins to upload products or creating user profiles with roles for managing the shop.
+  
+---
 
 ### Milestone 11: Dynamic Homepage with Product Data  
 
@@ -185,7 +187,9 @@ This project is an e-commerce website developed through a series of milestones, 
 #### 4️⃣ Submission Steps  
 - ✅ Pushed the updated code to the **GitHub repository**.  
 - ✅ Updated the **README.md** file with Milestone 11 details.  
-- ✅ Shared the repository link for submission.  
+- ✅ Shared the repository link for submission.
+
+---
 
 ### Milestone 12: My Products Page - Filtering by User Email  
 
