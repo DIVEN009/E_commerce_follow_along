@@ -20,6 +20,7 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 11: Dynamic Homepage with Product Data](#milestone-11-dynamic-homepage-with-product-data)  
   - [Milestone 12: My Products Page - Filtering by User Email](#milestone-12-my-products-page---filtering-by-user-email)  
   - [Milestone 13: Complete Project Documentation & Code Refactoring](#milestone-13-complete-project-documentation--code-refactoring)  
+  - [Milestone 14: Product Deletion Feature](#milestone-14-product-deletion-feature)
 - [How to Run the Project](#-how-to-run-the-project)  
 - [Next Steps](#-next-steps)  
 - [Contributing](#-contributing)  
@@ -216,6 +217,33 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
+### Milestone 14: Product Deletion Feature  
+
+✅ **Goals:**  
+
+#### 1️⃣ Backend - Delete Product by ID  
+- Created a **DELETE API endpoint** in Express.js to delete a product using its **unique ID**.  
+- Used **Mongoose** to find and remove the product from **MongoDB**.  
+- Ensured proper **error handling** if the product does not exist.  
+
+✅ **Code Snippet:**  
+```javascript
+app.delete("/api/products/:id", async (req, res) => {
+    try {
+        const { id } = req.params;
+        const deletedProduct = await Product.findByIdAndDelete(id);
+
+        if (!deletedProduct) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        res.json({ message: "Product deleted successfully" });
+    } catch (error) {
+        res.status(500).json({ message: "Error deleting product" });
+    }
+});
+
+---
 
 ## ▶ How to Run the Project 
 
@@ -249,4 +277,3 @@ This project is an e-commerce website developed through a series of milestones, 
    
 5. Open [http://localhost:3000/](http://localhost:3000/) in your browser.  
 
----
