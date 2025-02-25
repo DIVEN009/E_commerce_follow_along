@@ -245,7 +245,6 @@ app.delete("/api/products/:id", async (req, res) => {
 
 ---
 
-
 ## ▶ How to Run the Project 
 
 1. **Clone the repository:**  
@@ -278,4 +277,3 @@ app.delete("/api/products/:id", async (req, res) => {
    
 5. Open [http://localhost:3000/](http://localhost:3000/) in your browser.  
 
----
