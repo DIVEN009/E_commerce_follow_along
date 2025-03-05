@@ -22,6 +22,8 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 13: Complete Project Documentation & Code Refactoring](#milestone-13-complete-project-documentation--code-refactoring)  
   - [Milestone 14: Product Deletion Feature](#milestone-14-product-deletion-feature)
   - [Milestone 15: Navbar Component & Navigation](#milestone-15-navbar-component--navigation) 
+  - [Milestone 16: Product Info Page & Add to Cart](#milestone-16-product-info-page--add-to-cart)  
+
 - [How to Run the Project](#-how-to-run-the-project)  
 - [Next Steps](#-next-steps)  
 - [Contributing](#-contributing)  
@@ -278,6 +280,27 @@ app.delete("/api/products/:id", async (req, res) => {
 🚀 **Next Up:** Continue improving UI and adding more interactive features!  
 
 ---
+
+## Milestone 16: Product Info Page & Add to Cart Feature  
+
+### 🚀 Overview  
+In this milestone, we created a **Product Info Page** that displays all product details, allows users to select the quantity, and provides an **Add to Cart** button.  
+
+### 🎯 Learning Goals  
+By the end of this milestone, you will learn:  
+- How to create a new page to display each product's details.  
+- How to add a quantity selector and an **Add to Cart** button.  
+
+### 📝 Steps for Milestone 16  
+1. **Create a new Product Info Page** that dynamically displays all product details.  
+2. **Add a quantity selector** so users can choose how many units they want.  
+3. **Implement the Add to Cart button** to allow users to add selected products to their cart.  
+
+### 📥 Submission Guidelines  
+- Push your code to your **GitHub repository**.  
+- Ensure your repository is **publicly accessible**.  
+- **Update the README** to summarize your progress for Milestone 16.  
+- Share your **repository link** in the assignment submission section.  
 
 ## ▶ How to Run the Project 
 
