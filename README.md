@@ -246,6 +246,7 @@ app.delete("/api/products/:id", async (req, res) => {
 
 ---
 
+
 ### Milestone 15: Navbar Component & Navigation  
 
 ✅ **Goals:**  
@@ -311,4 +312,3 @@ app.delete("/api/products/:id", async (req, res) => {
    
 5. Open [http://localhost:3000/](http://localhost:3000/) in your browser.  
 
----
