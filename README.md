@@ -21,6 +21,7 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 12: My Products Page - Filtering by User Email](#milestone-12-my-products-page---filtering-by-user-email)  
   - [Milestone 13: Complete Project Documentation & Code Refactoring](#milestone-13-complete-project-documentation--code-refactoring)  
   - [Milestone 14: Product Deletion Feature](#milestone-14-product-deletion-feature)
+  - [Milestone 15: Navbar Component & Navigation](#milestone-15-navbar-component--navigation) 
 - [How to Run the Project](#-how-to-run-the-project)  
 - [Next Steps](#-next-steps)  
 - [Contributing](#-contributing)  
@@ -242,6 +243,40 @@ app.delete("/api/products/:id", async (req, res) => {
         res.status(500).json({ message: "Error deleting product" });
     }
 });
+
+---
+
+
+### Milestone 15: Navbar Component & Navigation  
+
+✅ **Goals:**  
+
+1️⃣ **Create a Navbar Component**  
+- Designed a **reusable** Navbar component.  
+- Included navigation links for:  
+  - **Home**  
+  - **My Products**  
+  - **Add Product**  
+  - **Cart**  
+
+2️⃣ **Make Navbar Responsive**  
+- Ensured the Navbar adapts to **all screen sizes** (desktop, tablet, mobile).  
+- Used **Tailwind CSS** for styling and responsiveness.  
+
+3️⃣ **Integrate Navbar Across Pages**  
+- Added the **Navbar component** to all screens.  
+- Ensured smooth navigation between pages.  
+
+4️⃣ **Improve User Experience**  
+- Implemented **active link highlighting** to indicate the current page.  
+- Used **React Router** for seamless routing.  
+
+✅ **Final Steps:**  
+- **Tested** the navigation flow.  
+- **Updated** the `README.md` with Milestone 15 details.  
+- **Pushed** changes to GitHub.  
+
+🚀 **Next Up:** Continue improving UI and adding more interactive features!  
 
 ---
 
