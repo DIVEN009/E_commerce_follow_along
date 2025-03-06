@@ -260,6 +260,7 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
+
 ### Milestone 15: Navbar Component & Navigation
 
 ✅ Goals:
@@ -286,6 +287,8 @@ This project is an e-commerce website developed through a series of milestones, 
 - ✅ Shared the repository link for submission.
 
 ---
+=======
+
 
 ### Milestone 16: Product Info Page  
 
@@ -408,4 +411,3 @@ This project is an e-commerce website developed through a series of milestones, 
    
 5. Open [http://localhost:3000/](http://localhost:3000/) in your browser.  
 
----
