@@ -25,6 +25,8 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 16: Product Info Page](#milestone-16-Product-Info-Page)
   - [Milestone 17: Add to Cart Functionality](#milestone-17-Add-to-Cart-Functionality)
   - [Milestone 18: Cart Page & Checkout Functionality](#milestone-18-Cart-Page-and-Checkout-Functionality)
+  - [Milestone 19: Cart Quantity Management](#milestone-19-Cart-Quantity-Management)
+  - [Milestone 20: Profile Page ](#milestone-20-Profile-Page)
 - [How to Run the Project](#-how-to-run-the-project) 
 ---
 
@@ -385,6 +387,76 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
+### Milestone 19: Cart Quantity Management
+
+✅ Goals:
+
+### 1️⃣ Frontend - Cart Page UI Enhancements
+
+- Added + and - buttons next to each product to modify its quantity.
+
+- Ensured real-time updates for accurate pricing adjustments.
+
+### 2️⃣ Backend - Quantity Management Endpoint
+
+- Created two API endpoints to increase and decrease product quantity in the cart.
+
+- Integrated logic to prevent negative quantities and handle item removal automatically when reduced to zero.
+
+### 3️⃣ Enhancing User Experience
+
+- Ensured instant feedback when quantity adjustments are made.
+
+- Maintained a clean UI design with clear quantity controls.
+
+### 4️⃣ Submission Steps
+
+- ✅ Pushed the updated code to the GitHub repository.
+
+- ✅ Updated the README.md file with Milestone 19 details.
+
+- ✅ Shared the repository link for submission.
+
+--- 
+### Milestone 20: Profile Page
+
+✅ Goals:
+
+### 1️⃣ Backend - User Data Endpoint
+
+- Created an API endpoint to send all user data including profile details and addresses.
+
+- Ensured the endpoint is secure and accessible only to authenticated users.
+
+### 2️⃣ Frontend - Profile Page UI
+
+- Designed a Profile Page that displays:
+
+   - Profile Photo
+
+   - Name
+
+   - Email
+
+   - List of Addresses
+
+- Added a clear "Add Address" button for adding new addresses.
+
+- Displayed "No address found" when no addresses are available.
+
+### 3️⃣ Enhancing User Experience
+
+- Ensured the profile page design is clean and easy to navigate.
+
+4️⃣ Submission Steps
+
+- ✅ Pushed the updated code to the GitHub repository.
+
+- ✅ Updated the README.md file with Milestone 20 details.
+
+- ✅ Shared the repository link for submission.
+
+---
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    bash  
