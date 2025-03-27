@@ -30,6 +30,7 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 21: Address Form Page](#milestone-21-Address-Form-Page)
   - [Milestone 22: Address Storage Endpoint](#milestone-22-Address-Storage-Endpoint)
   - [Milestone 23: Product Image Upload Feature](#milestone-23-Product-Image-Upload-Feature)
+  - [Milestone 24: Order Confirmation Page](#milestone-24-Order-Confirmation-Page)
 - [How to Run the Project](#-how-to-run-the-project) 
 ---
 
@@ -530,6 +531,35 @@ This project is an e-commerce website developed through a series of milestones, 
 
 - ✅ Pushed the updated code to the GitHub repository.
 - ✅ Updated the README.md file with Milestone 23 details.
+- ✅ Shared the repository link for submission.
+
+---
+# Milestone 24: Order Confirmation Page
+
+✅ *Goals:*
+
+### 1️⃣ Frontend - Order Confirmation Page
+
+- Developed an *Order Confirmation Page* that displays the following details:
+  - ✅ List of all products in the order with relevant details.
+  - ✅ The selected *delivery address* for clear reference.
+  - ✅ The *total cart value* calculated dynamically.
+  - ✅ A prominent *"Place Order"* button for finalizing the purchase.
+
+### 2️⃣ Enhancing User Experience
+
+- Ensured the layout is clean and user-friendly.
+- Added visual cues for better clarity, such as product images and clear section headings.
+- Provided feedback for successful order placement or any potential errors.
+
+### 3️⃣ Learning Outcome
+
+- Gained insights into implementing order functionality, including displaying order details and handling user selections.
+
+### 4️⃣ Submission Steps
+
+- ✅ Pushed the updated code to the GitHub repository.
+- ✅ Updated the README.md file with Milestone 24 details.
 - ✅ Shared the repository link for submission.
 
 ---
