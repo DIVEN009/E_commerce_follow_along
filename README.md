@@ -37,6 +37,11 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 28: Cancel Order Functionality ](#milestone-28-Cancel-Order-Functionality)
   - [Milestone 29: PayPal Payment Integration](#milestone-29-PayPal-Payment-Integration)
   - [Milestone 30: Integrating Online Payments with PayPal](#milestone-30-Integrating-Online-Payments-with-PayPal)
+  - [Milestone 31: Global State Management with Redux](#milestone-31-Global-State-Management-with-Redux)
+  - [Milestone 32: Storing and Accessing Mail in Global State with Redux](#milestone-32-Storing-and-Accessing-Mail-in-Global-State-with-Redux)
+  - [Milestone 33: Creating and Storing JWT Token in Cookies](#milestone-33-Creating-and-Storing-JWT-Token-in-Cookies)
+  - [Milestone 34: Validating JWT Token Stored in Cookies](#milestone-34-Validating-JWT-Token-Stored-in-Cookies)
+  - [Milestone 35: Deploying Your Project](#milestone-35-Deploying-Your-Project)
 - [How to Run the Project](#-how-to-run-the-project) 
 ---
 
@@ -746,7 +751,7 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
-# Milestone 31 - Global State Management with Redux
+# Milestone 31: Global State Management with Redux
 
 ## ✅ Goals:
 
@@ -774,7 +779,113 @@ This project is an e-commerce website developed through a series of milestones, 
 
 Good luck, Kalvians! ✨
 
---- 
+---
+
+# Milestone 32: Storing and Accessing Mail in Global State with Redux
+
+## ✅ Goals:
+
+### 1️⃣ Backend - Redux Integration with Mail
+- Updated the Redux store to store the user's mail in the global state.
+- Used the `dispatch` method to store the email in the global state upon login.
+
+### 2️⃣ Frontend - Accessing Mail Across Pages
+- Used the `useSelector` hook to access the user's email in all pages.
+- Ensured that the global email state is available across different components and pages.
+
+### 3️⃣ Enhancing User Experience with Redux
+- Provided consistent access to the user's email across the application.
+- Ensured the application responds to the state updates in a seamless manner.
+
+### 4️⃣ Submission Steps
+- ✅ Pushed the updated code to the GitHub repository.
+- ✅ Updated the README.md file with Milestone 32 details.
+- ✅ Shared the repository link for submission.
+
+Good luck, Kalvians! ✨
+
+---
+
+
+# Milestone 33: Creating and Storing JWT Token in Cookies
+
+## ✅ Goals:
+
+### 1️⃣ Backend - JWT Token Creation
+- Installed the `jsonwebtoken` package using:
+  ```bash
+  npm install jsonwebtoken
+  ```
+- Used the `sign` method to create a JWT token, including the user's email and ID.
+
+### 2️⃣ Storing JWT Token in Cookies
+- Set an expiration time for the JWT token using `maxAge`.
+- Added the JWT token to the response as a cookie to store it in the browser.
+
+### 3️⃣ Enhancing Security
+- Ensured that the JWT token is stored securely inside a cookie, facilitating seamless authentication.
+- Implemented the cookie-based token storage to manage user sessions.
+
+### 4️⃣ Submission Steps
+- ✅ Pushed the updated code to the GitHub repository.
+- ✅ Updated the README.md file with Milestone 33 details.
+- ✅ Shared the repository link for submission.
+
+Good luck, Kalvians! ✨
+
+---
+
+# Milestone 34: Validating JWT Token Stored in Cookies
+
+## ✅ Goals:
+
+### 1️⃣ Backend - JWT Token Validation
+- Extracted the JWT token from the browser’s cookie and sent it to the server.
+- Created a middleware function on the backend to validate the JWT token received from the client.
+- Ensured the server checks if the token is valid before granting access to protected routes.
+
+### 2️⃣ Frontend - Token Handling
+- Ensured that every page checks for the JWT token, preventing unauthorized access without login.
+- Implemented token validation across the application to ensure users are logged in before accessing protected resources.
+
+### 3️⃣ Enhancing Security and Authentication
+- Added robust token validation to secure the application and prevent unauthorized access.
+- Implemented the necessary steps to protect routes using JWT token validation on the server side.
+
+### 4️⃣ Submission Steps
+- ✅ Pushed the updated code to the GitHub repository.
+- ✅ Updated the README.md file with Milestone 34 details.
+- ✅ Shared the repository link for submission.
+
+Good luck, Kalvians! ✨
+
+---
+
+# Milestone 35: Deploying Your Project
+
+## ✅ Goals:
+
+### 1️⃣ Deploying the Backend
+- Deployed the backend on a cloud service (e.g., Heroku, AWS, DigitalOcean, etc.).
+- Retrieved the backend deployment link and ensured it was accessible.
+
+### 2️⃣ Deploying the Frontend
+- Replaced the local backend URLs in the frontend code with the backend deployment link.
+- Deployed the frontend to a hosting service (e.g., Netlify, Vercel, or any other platform).
+- Verified that the frontend was connected to the deployed backend and functioning properly.
+
+### 3️⃣ Full Deployment Verification
+- Ensured that both the frontend and backend were correctly deployed and were working as expected.
+- Conducted final tests to confirm that the website was fully functional with deployed backend and frontend.
+
+### 4️⃣ Submission Steps
+- ✅ Pushed the updated code to the GitHub repository.
+- ✅ Deployed both the frontend and backend.
+- ✅ Shared the deployment link in the assignment submission section.
+
+Good luck, Kalvians! ✨
+
+---
 
 ## ▶ How to Run the Project  
 1. Clone the repository:  
